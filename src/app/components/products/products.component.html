@@ -1,0 +1,24 @@
+<div class="container my-4">
+  <div class="note p-2 mx-5 mb-5">
+    <p>“Be yourself; everyone else is already taken”</p>
+    <span>— Oscar Wilde</span>
+  </div>
+  <div class="tittle mx-5 mb-5">
+    <h2>The most sought after by the community...</h2>
+  </div>
+  <!-- Carrousel Products -->
+  <div
+    class="carousel-wrap w-100 d-flex justify-content-evenly align-items-center"
+  >
+    <i class="fa-solid fa-circle-left"></i>
+    <div class="father-carousel d-flex align-items-center">
+      <div class="owl-carousel d-flex" id="carrusel">
+        <app-post-detail
+          [dataEntrante]="book"
+          *ngFor="let book of products"
+        ></app-post-detail>
+      </div>
+    </div>
+    <i class="fa-solid fa-circle-right"></i>
+  </div>
+</div>

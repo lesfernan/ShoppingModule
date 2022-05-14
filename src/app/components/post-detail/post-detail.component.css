@@ -1,0 +1,32 @@
+.item {
+  width: 250px;
+}
+.item .category {
+  height: 60px;
+  border-bottom: 2px solid #bababa;
+}
+.item button {
+  height: 40px;
+  border: 1px solid #bababa;
+  border-radius: 15px;
+  background-color: white;
+  color: #0f1d2b;
+  transition: all 0.5s;
+}
+.item h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100px;
+}
+.item button:hover {
+  border: none;
+  border-radius: 15px;
+  background-color: #0f1d2b;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+ul li i {
+  color: #ffb000;
+}

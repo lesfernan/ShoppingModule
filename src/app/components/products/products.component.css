@@ -1,0 +1,33 @@
+.note {
+  background-color: #bce0fd;
+  width: 30%;
+  border-radius: 5px;
+}
+.note p,
+.note span {
+  color: rgb(24, 69, 108);
+}
+.tittle {
+  border-bottom: 2px solid rgb(24, 69, 108);
+  width: 40%;
+}
+.tittle h2 {
+  color: rgb(24, 69, 108);
+  margin-bottom: 15px;
+}
+.carousel-wrap {
+  height: 600px;
+}
+.carousel-wrap > i {
+  font-size: 50px;
+  background-color: #ffb000;
+  border-radius: 50%;
+}
+.father-carousel {
+  width: 90%;
+  height: 100%;
+  overflow: hidden;
+}
+.owl-carousel {
+  height: 100%;
+}

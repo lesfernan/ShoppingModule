@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #419fb7;
+  height: 100px;
+}
+.set1,
+.set2,
+.set3 {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  /* justify-content: center; */
+}
+.set1 h1 {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.set2 input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  padding: 15px;
+}
+.set2 i {
+  color: #ffb000;
+  position: absolute;
+  top: 50;
+  right: 0;
+  cursor: pointer;
+}
+.set2 span {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+.set3 i {
+  color: #ffb000;
+  font-size: 30px;
+  cursor: pointer;
+}
+.set3 h2 {
+  font-weight: 800;
+}
+.set3 span {
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}

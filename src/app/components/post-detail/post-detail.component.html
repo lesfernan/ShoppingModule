@@ -1,0 +1,18 @@
+<div class="item p-2">
+  <img src="{{ dataEntrante?.image }}" alt="" width="200px" height="200px" />
+  <div class="category"></div>
+  <h4 class="p-2 w-100">{{ dataEntrante?.name }}</h4>
+  <span class="p-2">sku: {{ dataEntrante?.sku }}</span>
+  <ul class="d-flex w-100 m-0 p-2">
+    <li><i class="fa-solid fa-star"></i></li>
+    <li><i class="fa-solid fa-star"></i></li>
+    <li><i class="fa-solid fa-star"></i></li>
+    <li><i class="fa-solid fa-star"></i></li>
+    <li><i class="fa-solid fa-star"></i></li>
+  </ul>
+  <p class="w-100 p-2">{{ dataEntrante?.price }}$</p>
+  <button class="d-flex w-100 justify-content-center align-items-center">
+    <p class="m-0">Agregar al carrito</p>
+    <i class="fa-light fa-cart-arrow-down mx-2"></i>
+  </button>
+</div>
